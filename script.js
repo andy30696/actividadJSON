@@ -4,7 +4,7 @@ const container = document.getElementById("seriesContainer");
 
 function showData(dataArray) {
     for (const item of dataArray) {
-        seriesContainer.innerHTML += `<p> ${item.portada} ${item.titulo} </p>`;
+        seriesContainer.innerHTML += `<p> ${item.portada} <br> ${item.titulo} <br> ${item.cantidad_temporadas} <br> ${item.director} <br> ${item.genero} <br><br></p>`;
     }
 }
 fetch(DATA_URL)
