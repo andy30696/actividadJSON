@@ -9,5 +9,5 @@ function showData(dataArray) {
 }
 fetch(DATA_URL)
   .then((response) => response.json())
-  .then((data) => showData(series.lista_series))
+  .then((data) => showData(data.lista_series))
   .catch((error) => console.error("Error al obtener los datos:", error));
