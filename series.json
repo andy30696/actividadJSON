@@ -1,0 +1,62 @@
+{
+  "series": [
+    {
+      "titulo": "Friends",
+      "fecha_finalizacion": "8/7/2004",
+      "cantidad_temporadas": "10",
+      "director": "James Burrows",
+      "genero": "Comedia",
+      "portada": "images/friends.jpg"
+    },
+    { 
+      "titulo": "Unlock My Boss",
+      "fecha_finalizacion": "12/01/2023" ,
+      "cantidad_temporadas": "1" ,
+      "director": "Lee Cheol Ha",
+      "genero": "Drama,Fantasia",
+      "portada": "images/coreana.jpg"
+    },
+    {
+      "titulo": "How I met your mother",
+      "fecha_finalizacion": "31/03/2014",
+      "cantidad_temporadas":"9" ,
+      "director": "Pamela Fryman",
+      "genero": "Comedia",
+      "portada": "images/scale.jpeg"
+
+    },
+    {
+      "titulo": "Breaking Bad",
+      "fecha_finalizacion": "2013",
+      "cantidad_temporadas":"5" ,
+      "director": "Vince Gilligan, Michael Slovis, Colin Bucksey",
+      "genero": "Drama, Crimen",
+      "portada": "images/breaking.jpg"
+      
+    },
+    {
+      "titulo": "Peaky Blinders",
+      "fecha_finalizacion": "3/04/2022",
+      "cantidad_temporadas": "6",
+      "director": "Otto Bathrust, Tom Harper, Colm McCarty, Tim Mielants, David Caffrey",
+      "genero": "Drama, Ficcion historica, Crimen, Thriller psicologico.",
+      "portada": "images/peaky.jpg"
+    },
+    {
+      "titulo": "Love & Death",
+      "fecha_finalizacion": "15/17/2022",
+      "cantidad_temporadas": "1",
+      "director": "Lesli Linka Glatter and Clark Johnson",
+      "genero": "Drama, Crimenes Reales",
+      "portada": "images/amor.jpg"
+    },
+    {
+        "titulo": "Game of thrones",
+        "fecha_finalizacion": "19/05/2019", 
+        "cantidad_temporadas": "8",
+        "director": "Mark Mylod, Alex Graves, David Nutter",
+        "genero": "Fantasía, Drama, Acción, Aventura, Terror, Humor negro",
+        "portada": "images/game.jpg"
+      }
+  ]
+}
