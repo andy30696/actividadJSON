@@ -1,26 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500;900&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(32, 32, 32);
-    color:white;
+    color: white;
 }
 
-body{
-    display:flex;
+body {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1{
-display:block;
-
+h1 {
+    display: block;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    margin-top: 20px; /* Espacio superior entre h1 y el contenedor */
+}
 
-img{
-width: 20%;
+img {
+    width: 20rem;
+}
+
+/* Estilo adicional para la información, ajusta según sea necesario */
+.informacion {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-align: left;
 }
